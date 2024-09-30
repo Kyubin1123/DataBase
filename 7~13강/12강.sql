@@ -1,0 +1,35 @@
+-- CREATE DATABASE testdatabase;
+-- USE testdatabase;
+-- DROP TABLE users;
+-- CREATE TABLE users (
+	-- id INT PRIMARY KEY,
+    -- username VARCHAR(30) NOT NULL,
+    -- email VARCHAR(100) UNIQUE,
+	-- is_business VARCHAR(10) DEFAULT False
+    -- age INT CHECK (age > 10)
+-- );
+-- create table users(
+	-- user_id INT PRIMARY KEY,
+    -- name VARCHAR(100),
+    -- age INT
+-- );
+
+-- insert into users(user_id, name, age)
+-- values (1, 'Alice', 25),
+-- 		(2, 'Bob', 30),
+--         (3, 'Charlie', 22),
+--         (4, 'David', 33),
+--         (5, 'Eve', 28);
+
+-- create table orders(
+-- 	order_id int primary key,
+-- 	user_id int,
+--     order_date DATE
+-- );
+
+-- insert into orders(order_id, user_id, order_date)
+-- values (101, 1, '2023-01-01'),
+-- 	(102, 2, '2023-02-01'),
+--     (103, 1, '2023-02-15'),
+--     (104, 3, '2023-03-01'),
+--     (105, 4, '2023-03-10');
